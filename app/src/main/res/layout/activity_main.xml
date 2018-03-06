@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="1dp"
+    android:paddingTop="16dp"
+    android:orientation="horizontal"
+    tools:context="tdm2018.ittepic.edu.tdm2018_u2_lab2_224_recyclervew.MainActivity">
+
+    <Button
+        android:id="@+id/btnOpcionRegistro"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Registro" />
+
+    <Button
+        android:id="@+id/btnConsultaListaPersonasRecycler"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Consulta" />
+
+
+</LinearLayout>
